@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower6zym.com</title>
+    <style>
+        /* css reset */
+        body{
+            color: azure;
+            margin: 0;
+            padding: o;
+            background: url("images/gym2.jpg");
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+
+        }
+        .left img{
+            width: 130px;
+            height: 80px;
+            /* filter: invert(100%); */
+        }
+        .left div{
+            text-align: center;
+            color: rgb(57, 11, 165);
+        }
+        .mid{
+            width: 43%;
+            margin: 20px auto;
+            /* border: 2px solid rgb(163, 192, 35); */
+
+        }
+        .right{
+            /* border: 2px solid rgb(216, 19, 173); */
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block; /*later we can set width also if used inline block*/
+
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+
+        }
+        .navbar li a{
+            color: bisque;
+            text-decoration: none;
+            padding: 22px 20px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            color: black;
+            text-decoration: underline;
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: rgb(143, 71, 140) ;
+            padding: 3px 9px;
+            border: 2px solid rosybrown;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(255, 152, 152);
+        }
+        .container{
+            border: 4px solid rebeccapurple;
+            margin: 100px;
+            padding: 75px;
+            color: brown;
+            width: 33%;
+            border-radius: 10px;
+         
+
+        }
+        .formgrop input{
+            text-align: center;
+            margin: 100;
+            padding:auto;
+            font-size: 20px;
+            border-radius: 10px;
+
+
+        }
+        .container h1{
+            text-align: center;
+        }
+            
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="images/gym.jpg" alt="">
+            <div>
+                MK Fitness
+            </div>
+            
+<!-- I am left -->
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href=# class="active">Home</a></li>
+                <li><a href=#>About Us</a></li>
+                <li><a href=#>Fitness Centre</a></li>
+                <li><a href=#>Contact Us</a></li>
+            </ul>
+ <!-- I am mid -->
+        
+        </div>
+        <!-- right box for something see
+         -->
+         <div class="right">
+             <button class="btn">Email</button>
+             <button class="btn">Call Us</button>
+<!-- I am right -->
+         </div>
+
+    </header>
+    <div class="container">
+        <!-- Main ek container hoon -->
+        <h1>Join the Only Zym of Rajapukhuri</h1>
+        <form action="no action.php">
+            <div class="formgrop">
+                <input type="text" name="" id="" placeholder="Enter ur name">
+                <input type="text" name="" id="" placeholder="Enter ur weight">
+                <input type="text" name="" id="" placeholder="Enter ur height">
+                <input type="text" name="" id="" placeholder="Enter ur age">
+                <button class="btn">
+                    Submit here
+                </button>
+
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
